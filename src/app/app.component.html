@@ -10,9 +10,9 @@
   <header>
     <!-- You can include the main navigation bar here -->
     <nav>
-      <a [routerLink]="['/']">Home</a>
-      <a [routerLink]="['/auth/login']">Login</a>
-      <a [routerLink]="['/auth/register']">Register</a>
+      <a [routerLink]="['/']">{{ 'WELCOME' | translate }}</a>
+      <a [routerLink]="['/auth/login']">{{ 'LOGIN' | translate }}</a>
+      <a [routerLink]="['/auth/register']">{{ 'REGISTER' | translate }}</a>
       <!-- Add more links based on your application's routing structure -->
     </nav>
   </header>
